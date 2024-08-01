@@ -10,27 +10,28 @@
     "format": "prettier --write \"**/*.{ts,tsx,md,mdx,json,js,mjs,cjs}\""
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.4",
-    "@heroicons/react": "^2.0.13",
-    "eslint-config-next": "^13.0.1",
-    "framer-motion": "^7.6.4",
-    "next": "^14",
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
+    "framer-motion": "^11.3.19",
+    "next": "^14.2.5",
     "plaiceholder": "^3.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hooks-global-state": "^2.0.0",
-    "react-swipeable": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hooks-global-state": "^2.1.0",
+    "react-swipeable": "^7.0.1",
     "react-use-keypress": "^1.3.1"
   },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
-    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.18",
-    "prettier": "^2.7.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.5",
+    "postcss": "^8.4.40",
+    "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "tailwindcss": "^3.2.1",
+    "tailwindcss": "^3.4.7",
     "typescript": "4.8.4"
   }
 }
